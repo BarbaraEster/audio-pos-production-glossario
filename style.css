@@ -1,0 +1,19 @@
+.card-custom {
+  background-color: #1e1e1e;
+  border: none;
+  border-radius: 12px;
+  transition: 0.2s ease;
+}
+
+.card-custom:hover {
+  transform: scale(1.02);
+}
+
+.termo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.7rem;
+}
