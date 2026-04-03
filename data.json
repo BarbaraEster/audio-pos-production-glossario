@@ -1,26 +1,14 @@
 [
   {
-    "termo": "ADR",
-    "descricao": "Regravação de diálogos pelo próprio ator.",
-    "descricao_completa": "ADR é uma sigla para “Automated Dialogue Replacement”, “Alternative Dialogue Recording” entre outras diferentes combinações de palavras. O que importa é que ADR é uma espécie única de dublagem em que o ator dubla a si mesmo e a equipe de gravação e edição segue um processo muito diferente da dublagem convencional para a localização de obras audiovisuais.",
-    "categoria": "Diálogo"
-  },
-  {
-    "termo": "BG",
-    "descricao": "Sons ambientes de fundo da cena.",
-    "descricao_completa": "BG é uma sigla que significa Backgrounds em inglês e se refere aos sons ambientes do fundo da cena. Além de BG, pode-se usar a sigla AMB, para se referir aos ambientes sonoros. BG pode se referir apenas às “camas” de ambiente e não aos efeitos de ambiente, por vezes chamados de BG FX.",
-    "categoria": "Ambiência"
-  },
-  {
-    "termo": "AMB",
-    "descricao": "Som contínuo de ambiente.",
-    "descricao_completa": "É uma sigla para Ambience e usada para se referir ao som contínuo de fundo de uma cena, como vento, chuva, sons de cidade ou floresta. É diferente de BG pois o AMB tende a ser contínuo, enquanto BG pode incluir variações mais específicas.",
-    "categoria": "Ambiência"
-  },
-  {
     "termo": "DX",
     "descricao": "Sigla para diálogo.",
     "descricao_completa": "É uma sigla que significa Diálogo e geralmente usada para se dirigir a todo o conteúdo relativo ao diálogo. Também pode ser conhecida como DIAL ou DIA, em outros contextos.",
+    "categoria": "Diálogo"
+  },
+  {
+    "termo": "DIA",
+    "descricao": "Abreviação de Diálogo.",
+    "descricao_completa": "É uma sigla que significa Diálogo e geralmente usada para se dirigir a todo o conteúdo relativo ao diálogo. Também pode ser conhecida como DX ou DIAL, em outros contextos.",
     "categoria": "Diálogo"
   },
   {
@@ -30,8 +18,14 @@
     "categoria": "Efeitos"
   },
   {
+    "termo": "BG",
+    "descricao": "Ambiente de fundo.",
+    "descricao_completa": "BG é uma sigla que significa Backgrounds em inglês e se refere aos sons ambientes do fundo da cena. Além de BG, pode-se usar a sigla AMB, para se referir aos ambientes sonoros. BG pode se referir apenas às “camas” de ambiente e não aos efeitos de ambiente, por vezes chamados de BG FX.",
+    "categoria": "Ambiência"
+  },
+  {
     "termo": "MX",
-    "descricao": "Trilha musical da obra.",
+    "descricao": "Sigla para elementos musicais.",
     "descricao_completa": "MX é uma sigla inventada que geralmente se usa para se referir a todos os elementos musicais e à trilha musical da obra.",
     "categoria": "Música"
   },
@@ -39,90 +33,498 @@
     "termo": "RX",
     "descricao": "Software de restauração de áudio.",
     "descricao_completa": "RX geralmente se refere ao software iZotope RX, que é a suíte mais famosa de edição, limpeza e restauração de áudio.",
-    "categoria": "Software"
+    "categoria": "Ferramenta"
   },
   {
     "termo": "PL",
-    "descricao": "Picture Lock.",
+    "descricao": "Corte final da imagem.",
     "descricao_completa": "PL é uma sigla pra “Picture Lock”, que é o corte final da imagem, quando idealmente a obra finalizou a edição de vídeo e não mexerá mais.",
-    "categoria": "Produção"
+    "categoria": "Processo"
   },
   {
     "termo": "Walla",
-    "descricao": "Vozerio de fundo.",
+    "descricao": "Vozerios de fundo ininteligíveis.",
     "descricao_completa": "Walla é um termo geralmente utilizado para descrever vozerios de fundo que são ininteligíveis e não possuem uma língua ou conteúdo perceptível e discernível.",
     "categoria": "Diálogo"
   },
   {
+    "termo": "ADR",
+    "descricao": "Regravação de diálogos (dublagem de si mesmo).",
+    "descricao_completa": "ADR é uma sigla para “Automated Dialogue Replacement”, “Alternative Dialogue Recording” entre outras diferentes combinações de palavras. O que importa é que ADR é uma espécie única de dublagem em que o ator dubla a si mesmo e a equipe de gravação e edição segue um processo muito diferente da dublagem convencional para a localização de obras audiovisuais.",
+    "categoria": "Diálogo"
+  },
+  {
     "termo": "PFX",
-    "descricao": "Efeitos captados na produção.",
-    "descricao_completa": "Sigla para “Production Effects”, que são efeitos sonoros captados na produção, geralmente pela equipe de som direto.",
+    "descricao": "Efeitos captados no som direto.",
+    "descricao_completa": "Sigla para “Production Effects”, que são efeitos sonoros captados na produção, geralmente pela equipe de som direto. Todo som que não é diálogo nem música que tenha sido captado na etapa da produção entra nessa categoria de efeitos sonoros. Costumam chegar junto com o DX.",
     "categoria": "Efeitos"
   },
   {
-    "termo": "Foley",
-    "descricao": "Criação manual de efeitos.",
-    "descricao_completa": "Termo que designa a criação e gravação de efeitos sonoros feitos manualmente em estúdio, sincronizados com a imagem.",
+    "termo": "Fill",
+    "descricao": "Preenchimento de silêncio nos diálogos.",
+    "descricao_completa": "É o preenchimento entre as falas na edição de diálogos, feito com som de silêncio ou ‘room-tone’ do som direto, usado para dar consistência ao ruído de fundo do diálogo.",
+    "categoria": "Diálogo"
+  },
+  {
+    "termo": "5.1 / 7.1 / ATMOS",
+    "descricao": "Formatos de mixagem multicanal e imersiva.",
+    "descricao_completa": "São formatos de mixagem multicanal. 5.1 é o padrão com seis canais (esquerda, centro, direita, surround L, surround R e subwoofer). 7.1 amplia a imersão com surround traseiro extra. Atmos é um formato de áudio imersivo com objetos sonoros em altura.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "AMB",
+    "descricao": "Som contínuo de ambiente.",
+    "descricao_completa": "É uma sigla para Ambience e usada para se referir ao som contínuo de fundo de uma cena, como vento, chuva, sons de cidade ou floresta. É diferente de BG pois o AMB tende a ser contínuo, enquanto BG pode incluir variações mais específicas.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "BASS DROP",
+    "descricao": "Queda de frequência grave prolongada.",
+    "descricao_completa": "Som caracterizado por uma queda de frequência grave prolongada, comum em música eletrônica e também em trilhas de suspense ou trailers. O bass drop cria a sensação de descida, expectativa ou clímax iminente.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "BASS HIT",
+    "descricao": "Impacto sonoro grave e curto.",
+    "descricao_completa": "É um termo usado para descrever um impacto sonoro grave e curto, muito utilizado em trailers, vinhetas e transições dramáticas. O bass hit geralmente reforça momentos de tensão, cortes rápidos ou entradas visuais importantes.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "BOUNCE / RENDER",
+    "descricao": "Exportação do arquivo final.",
+    "descricao_completa": "São termos usados para a exportação do arquivo de áudio final a partir de um projeto de edição.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "BOUNCE IN PLACE",
+    "descricao": "Renderização de trecho na própria sessão.",
+    "descricao_completa": "Função usada para renderizar um trecho de áudio ou MIDI em um novo arquivo já processado, mantendo-o no mesmo lugar na sessão.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "CLIPPING",
+    "descricao": "Distorção por excesso de nível digital.",
+    "descricao_completa": "Distorção causada quando o sinal ultrapassa o limite máximo do sistema digital (0 dBFS).",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "CLOTH MOVEMENT",
+    "descricao": "Som de roupas e tecidos.",
+    "descricao_completa": "Som de roupas e tecidos em movimento, muito usado em foley para dar realismo às ações dos personagens.",
     "categoria": "Foley"
   },
   {
+    "termo": "COMMIT",
+    "descricao": "Renderização definitiva de plugins (Pro Tools).",
+    "descricao_completa": "No Pro Tools, é o recurso usado para aplicar definitivamente o processamento de plugins ou edições, criando uma nova faixa de áudio com os efeitos impressos.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "CUE",
+    "descricao": "Trecho musical ou sonoro específico.",
+    "descricao_completa": "É um termo usado para designar um trecho musical ou sonoro específico dentro da obra, geralmente associado a uma marcação precisa na montagem.",
+    "categoria": "Música"
+  },
+  {
     "termo": "DAW",
-    "descricao": "Software de produção de áudio.",
-    "descricao_completa": "É a sigla para Digital Audio Workstation, que designa os softwares de edição e mixagem de áudio.",
-    "categoria": "Software"
+    "descricao": "Estação de trabalho de áudio digital.",
+    "descricao_completa": "É a sigla para Digital Audio Workstation, que designa os softwares de edição e mixagem de áudio, como Pro Tools, Reaper, Logic Pro ou Nuendo.",
+    "categoria": "Ferramenta"
   },
   {
-    "termo": "Clipping",
-    "descricao": "Distorção por excesso de volume.",
-    "descricao_completa": "Distorção causada quando o sinal ultrapassa o limite máximo do sistema digital (0 dBFS).",
-    "categoria": "Áudio"
+    "termo": "DELIVERABLES",
+    "descricao": "Arquivos finais de entrega.",
+    "descricao_completa": "É o conjunto de arquivos finais exigidos pelo cliente ou distribuidor, incluindo a mix completa, stems separados, M&E e versões internacionais.",
+    "categoria": "Processo"
   },
   {
-    "termo": "Headroom",
-    "descricao": "Margem de segurança no áudio.",
-    "descricao_completa": "Espaço de segurança entre o nível médio do áudio e o limite máximo de distorção digital.",
-    "categoria": "Áudio"
+    "termo": "DESIGN FX",
+    "descricao": "Efeitos sonoros estilizados ou sintéticos.",
+    "descricao_completa": "São efeitos sonoros estilizados ou criados em síntese digital, muitas vezes não realistas, usados para dar identidade a criaturas, armas futuristas, interfaces de computador ou sons mágicos.",
+    "categoria": "Efeitos"
   },
   {
-    "termo": "Loudness",
-    "descricao": "Percepção de volume.",
-    "descricao_completa": "É a percepção de volume de um áudio ao longo do tempo, medida em LUFS (Loudness Units Full Scale).",
-    "categoria": "Áudio"
+    "termo": "DITHER",
+    "descricao": "Ruído para evitar distorção em conversão de bits.",
+    "descricao_completa": "Ruído de baixa intensidade adicionado intencionalmente a arquivos de áudio durante a conversão de bit depth (ex.: 24 para 16 bits) para evitar distorções.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "DRONE",
+    "descricao": "Sons graves e contínuos de atmosfera.",
+    "descricao_completa": "Termo usado para designar sons graves e contínuos, muitas vezes sustentados por longos períodos. São usados para criar tensão, atmosfera sombria ou sensação de grandeza.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "DYNAMIC RANGE",
+    "descricao": "Intervalo entre o som mais baixo e o mais alto.",
+    "descricao_completa": "Diferença entre os sons mais baixos e mais altos de um áudio. Uma boa mixagem busca equilibrar esse intervalo para manter clareza e impacto.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "FOLEY",
+    "descricao": "Criação manual de efeitos sincronizados.",
+    "descricao_completa": "Termo que designa a criação e gravação de efeitos sonoros feitos manualmente em estúdio, sincronizados com a imagem. Exemplos comuns são passos, batidas de portas, manuseio de objetos e movimento de roupas.",
+    "categoria": "Foley"
+  },
+  {
+    "termo": "FOLEY PROP",
+    "descricao": "Objetos usados na gravação de foley.",
+    "descricao_completa": "Objeto usado em estúdio de foley para recriar sons da cena. Exemplo: usar um pedaço de couro para simular som de roupas, ou cocos para passos de cavalo.",
+    "categoria": "Foley"
+  },
+  {
+    "termo": "FREEZE TRACK",
+    "descricao": "Congelamento de trilha para poupar CPU.",
+    "descricao_completa": "Recurso que 'congela' uma trilha aplicando todos os efeitos e processamentos em áudio renderizado temporário. Isso economiza processamento da CPU sem perder a possibilidade de 'descongelar' depois. No Pro Tools é chamado de Track Freeze.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "CONSOLIDATE / GLUE",
+    "descricao": "Consolidação de clipes em um único arquivo.",
+    "descricao_completa": "No Pro Tools e em outras DAWs, o termo se refere ao ato de consolidar clipes de áudio em um único arquivo contínuo, eliminando cortes e edições. A função equivalente é chamada de Consolidate no Pro Tools.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "HANDLING NOISE",
+    "descricao": "Ruído de manuseio de equipamento.",
+    "descricao_completa": "Ruído indesejado causado pelo manuseio de microfone ou equipamento de captação.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "HEADROOM",
+    "descricao": "Margem de segurança contra distorção.",
+    "descricao_completa": "Espaço de segurança entre o nível médio do áudio e o limite máximo de distorção digital (0 dBFS). Mantém margem para picos sem clipar.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "HIT/IMPACT",
+    "descricao": "Sons curtos para marcar momentos fortes.",
+    "descricao_completa": "São sons curtos e fortes, usados para marcar momentos de impacto, entradas dramáticas ou mudanças bruscas na narrativa.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "LATENCY",
+    "descricao": "Atraso no processamento digital.",
+    "descricao_completa": "Atraso entre a emissão do som e sua reprodução pelo sistema de áudio. Geralmente causado por processamento digital.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "LOOP GROUP",
+    "descricao": "Gravação de vozes em grupo (multidões).",
+    "descricao_completa": "Termo que se refere à gravação de vozes de grupo para criar a sensação de multidões ou ambientes cheios. Diferente do Walla, geralmente é mais intencional e pode incluir idiomas específicos ou murmúrios mais organizados para dar realismo às cenas.",
+    "categoria": "Diálogo"
+  },
+  {
+    "termo": "LOUDNESS",
+    "descricao": "Percepção de volume ao longo do tempo.",
+    "descricao_completa": "É a percepção de volume de um áudio ao longo do tempo, medida em LUFS (Loudness Units Full Scale). Diferente do volume instantâneo, o loudness reflete a sensação de intensidade sonora contínua e é padronizado para broadcast e streaming.",
+    "categoria": "Técnico"
   },
   {
     "termo": "LUFS",
-    "descricao": "Unidade de loudness.",
-    "descricao_completa": "É a unidade de medida de loudness integrada usada como padrão em broadcast.",
-    "categoria": "Áudio"
+    "descricao": "Unidade de medida de loudness.",
+    "descricao_completa": "É a unidade de medida de loudness integrada (Loudness Units Full Scale), usada como padrão em normas de broadcast e plataformas de streaming.",
+    "categoria": "Técnico"
   },
   {
-    "termo": "Riser",
-    "descricao": "Som crescente.",
-    "descricao_completa": "Som crescente usado para criar tensão e expectativa antes de um impacto.",
-    "categoria": "Sound Design"
+    "termo": "M&E",
+    "descricao": "Música e Efeitos (versão sem diálogo).",
+    "descricao_completa": "É a sigla para Music and Effects e se refere à versão de uma obra sem os diálogos, mantendo apenas música e efeitos. É usada para dublagens internacionais, permitindo que novos diálogos sejam adicionados sem perder a ambiência original.",
+    "categoria": "Processo"
   },
   {
-    "termo": "Whoosh",
-    "descricao": "Som de movimento.",
-    "descricao_completa": "Som usado para dar dinamismo a cortes, transições ou movimentos de câmera.",
-    "categoria": "Sound Design"
+    "termo": "NARR",
+    "descricao": "Abreviação para Narrador.",
+    "descricao_completa": "É uma abreviação usada para designar Narrator ou Narração, podendo aparecer em roteiros ou planilhas de edição. Refere-se especificamente à voz do narrador principal da obra, diferente do VO que pode variar conforme o uso.",
+    "categoria": "Diálogo"
   },
   {
-    "termo": "Sweep",
-    "descricao": "Transição sonora.",
-    "descricao_completa": "Efeito sonoro de variação de frequência criando sensação de movimento.",
-    "categoria": "Sound Design"
+    "termo": "NORMALIZATION",
+    "descricao": "Ajuste automático de nível de volume.",
+    "descricao_completa": "É o processo de ajustar automaticamente o volume de um arquivo para atingir um nível padrão, sem alterar sua dinâmica.",
+    "categoria": "Técnico"
   },
   {
-    "termo": "Sub Bass",
-    "descricao": "Frequências graves profundas.",
-    "descricao_completa": "Frequências abaixo de 60 Hz usadas para reforçar impacto.",
-    "categoria": "Sound Design"
+    "termo": "OBJECT SOUND",
+    "descricao": "Sons de objetos específicos.",
+    "descricao_completa": "Categoria usada em gravações diretas ou em bibliotecas para sons específicos de objetos, como chave batendo, copo sendo colocado na mesa, cadeiras arrastando, etc.",
+    "categoria": "Efeitos"
   },
   {
-    "termo": "Drone",
-    "descricao": "Som contínuo.",
-    "descricao_completa": "Som sustentado por longos períodos para criar tensão e atmosfera.",
+    "termo": "OST",
+    "descricao": "Trilha sonora original.",
+    "descricao_completa": "É a sigla para Original Soundtrack e refere-se à trilha sonora original da obra, composta especialmente para o projeto. Muitas vezes é lançada separadamente em álbuns.",
     "categoria": "Música"
+  },
+  {
+    "termo": "PREMIX",
+    "descricao": "Mixagem preliminar de grupos de áudio.",
+    "descricao_completa": "É a mixagem preliminar de um ou mais grupos de áudio antes da mixagem final. Costuma ser feita para organizar o material antes de juntar todos os elementos.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "PRINT MASTER",
+    "descricao": "Arquivo final masterizado.",
+    "descricao_completa": "É o arquivo final de áudio já masterizado e pronto para distribuição, podendo ter diferentes versões (completa, M&E, sem narração).",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "PROP SOUND",
+    "descricao": "Som de objeto real reforçado na pós.",
+    "descricao_completa": "Som captado de um objeto real usado na filmagem, mas muitas vezes regravado ou reforçado em pós-produção para maior clareza.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "PUNCH IN / PUNCH OUT",
+    "descricao": "Gravação corretiva em pontos específicos.",
+    "descricao_completa": "Técnica de gravação em que o engenheiro inicia e finaliza a gravação em pontos específicos para corrigir ou substituir apenas trechos de uma performance.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "RE-RECORDING MIX",
+    "descricao": "Mixagem final cinematográfica.",
+    "descricao_completa": "É a mixagem final feita em estúdio de cinema ou sala de mixagem, juntando diálogos, música e efeitos em uma única versão balanceada.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "RISER",
+    "descricao": "Som crescente de tensão.",
+    "descricao_completa": "Som crescente, geralmente construído com sintetizadores ou manipulações, usado para criar tensão e expectativa antes de um impacto ou mudança de cena.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "RMS",
+    "descricao": "Nível médio de energia do sinal.",
+    "descricao_completa": "Sigla para Root Mean Square. Mede o nível médio de energia de um sinal de áudio. Embora seja menos preciso para percepção humana que LUFS, ainda é usado como referência em masterização musical.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "ROOM TONE",
+    "descricao": "Som ambiente silencioso do set.",
+    "descricao_completa": "É o som ambiente específico gravado no set, geralmente com o ambiente 'silencioso', mas que serve para preencher espaços entre falas e evitar cortes bruscos no áudio.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "RTAS / AAX / VST",
+    "descricao": "Formatos de plugins de áudio.",
+    "descricao_completa": "São formatos de plugins de áudio. RTAS e AAX são usados principalmente no Pro Tools, enquanto VST é um formato padrão mais universal.",
+    "categoria": "Ferramenta"
+  },
+  {
+    "termo": "SCORE",
+    "descricao": "Trilha musical narrativa (não diegética).",
+    "descricao_completa": "É a trilha musical composta para acompanhar a narrativa, geralmente não diegética (não está no mundo dos personagens).",
+    "categoria": "Música"
+  },
+  {
+    "termo": "SFX",
+    "descricao": "Efeitos sonoros (geralmente de biblioteca).",
+    "descricao_completa": "É a sigla para Sound Effects, termo que abrange todos os efeitos sonoros de uma obra. Muitas vezes é usado de forma intercambiável com FX, mas em produções maiores pode se referir especificamente a efeitos criados digitalmente ou já disponíveis em bibliotecas.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SLATE / CLAPPER",
+    "descricao": "Claquete para sincronização.",
+    "descricao_completa": "Refere-se ao claquete usado no set, cujo som (clap) e imagem (batida) servem para sincronizar áudio e vídeo.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "SOURCE MUSIC",
+    "descricao": "Música diegética (dentro da cena).",
+    "descricao_completa": "Termo usado para música que está presente no universo da cena (diegeticamente), como uma banda tocando ao vivo, um rádio ligado ou um celular tocando.",
+    "categoria": "Música"
+  },
+  {
+    "termo": "SPARKLE",
+    "descricao": "Efeito sonoro cintilante/mágico.",
+    "descricao_completa": "Efeito sonoro cintilante, geralmente agudo e brilhante, usado para sugerir magia, transições suaves, brilhos visuais ou movimentos leves. Muitas bibliotecas de sound design incluem variações de sparkles para realçar passagens visuais delicadas.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "STAB",
+    "descricao": "Som curto e agudo de pontuação.",
+    "descricao_completa": "Um som curto, agudo ou grave, usado para pontuar cortes, sustos ou movimentos bruscos. Muito comum em terror e em música eletrônica.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "STEM",
+    "descricao": "Faixas agrupadas de áudio.",
+    "descricao_completa": "É um termo usado para designar faixas agrupadas de áudio, como um stem de diálogos, um stem de música ou um stem de efeitos. São usados em mixagens e entregas finais para facilitar versões e ajustes.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "STINGER",
+    "descricao": "Efeito musical curto de impacto.",
+    "descricao_completa": "Um efeito sonoro ou musical curto e intenso, usado como pontuação dramática. Pode ser um acorde musical, uma nota grave ou um efeito de percussão.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SWEETENING",
+    "descricao": "Melhoria sutil de sons existentes.",
+    "descricao_completa": "Processo de adicionar efeitos sutis para melhorar a qualidade de diálogos, música ou efeitos já existentes. Pode incluir equalização, reverbs leves ou camadas de som extra.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "SYNC",
+    "descricao": "Sincronização entre áudio e imagem.",
+    "descricao_completa": "É o processo de sincronização entre o áudio e a imagem, que pode ser feito manualmente ou com ferramentas automáticas.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "TEMP TRACK",
+    "descricao": "Trilha sonora temporária.",
+    "descricao_completa": "É uma trilha sonora temporária usada durante a edição, antes da composição original ou da compra dos direitos da música final.",
+    "categoria": "Música"
+  },
+  {
+    "termo": "TP (TRUE PEAK)",
+    "descricao": "Medição de picos reais de sinal.",
+    "descricao_completa": "Mede os picos reais de um sinal, considerando até mesmo os inter-sample peaks (picos que podem ultrapassar o limite digital entre amostras). É usado para evitar distorções na conversão e distribuição.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "VO",
+    "descricao": "Voz em off (Narração).",
+    "descricao_completa": "VO é uma sigla que significa Voice Over e geralmente usada para se referir à locução em off ou narração que não está sincronizada com a boca de nenhum personagem em cena. É muito usada em documentários, comerciais, trailers e também em produções narrativas quando há uma 'voz da consciência' ou narrador externo à história.",
+    "categoria": "Diálogo"
+  },
+  {
+    "termo": "WHOOSH",
+    "descricao": "Som de deslocamento rápido no ar.",
+    "descricao_completa": "É o termo em inglês para designar sons de deslocamento rápido no ar, usados para dar dinamismo a cortes, transições ou movimentos de câmera.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "WILD LINES",
+    "descricao": "Falas gravadas fora de cena.",
+    "descricao_completa": "São falas gravadas fora de cena ou fora de sincronismo, sem imagem de referência, mas usadas para complementar diálogos ou cobrir falas que não foram captadas no set.",
+    "categoria": "Diálogo"
+  },
+  {
+    "termo": "WILD TRACK",
+    "descricao": "Som gravado no set sem câmera.",
+    "descricao_completa": "Gravação de som feita no set sem câmera rodando, geralmente para captar sons de ambiente, falas extras ou ruídos de objetos usados na cena.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "DISINTEGRATION / IMPACT TAIL",
+    "descricao": "Cauda de reverberação de um impacto.",
+    "descricao_completa": "Parte posterior de um efeito de impacto, com reverberação, eco ou decaimento que prolonga o efeito.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "FX RISERS",
+    "descricao": "Risers focados em sound design.",
+    "descricao_completa": "Versões específicas de riser mais focadas em efeitos sonoros, com camadas de som que crescem em volume e complexidade para preparar um momento de impacto.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "GLITCH / GLITCH FX",
+    "descricao": "Sons com falhas e distorções estéticas.",
+    "descricao_completa": "Sons com falhas, cortes abruptos, estalos, distorções propositalmente inseridas como efeito estético. Usado bastante em trilhas eletrônicas ou em cenas de quebra/disrupção.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "HIT",
+    "descricao": "Som curto e marcante.",
+    "descricao_completa": "Qualquer som curto e marcante usado para pontuar uma ação visual ou transição – similar a impact, mas mais genérico.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "HIT REVERSE",
+    "descricao": "Hit tocado ao contrário.",
+    "descricao_completa": "Hit comum mas tocado ao contrário, pode soar como um “puff” ou algo inesperado, ótimo para transições ou enfatizar efeitos visuais que retrocedem.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "IMPACT HIT",
+    "descricao": "Hit forte com impacto ou explosão.",
+    "descricao_completa": "Tipo de hit muito forte, geralmente com explosão ou som quebrando, usado para momentos de choque ou clímax visual.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "LOOP",
+    "descricao": "Trecho de áudio repetitivo.",
+    "descricao_completa": "Trecho de áudio que se repete continuamente, usado para manter um ritmo ou textura sonora constante. Pode ser musical ou ambiente.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "LOOP REDUCTION / LOOP REMIX",
+    "descricao": "Variação de um loop original.",
+    "descricao_completa": "Versão de um loop original com variações — menos instrumentos, ritmo alterado ou textura diferente — para evitar repetitividade.",
+    "categoria": "Processo"
+  },
+  {
+    "termo": "METALLIC FX",
+    "descricao": "Sons com textura metálica.",
+    "descricao_completa": "Sons com caráter metálico — batidas em metal, vibração metálica, eco metálico — usados para dar textura industrial ou futurista.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "NOISE TEXTURE / NOISE PAD",
+    "descricao": "Textura gerada por ruídos contínuos.",
+    "descricao_completa": "Textura sonora gerada por ruídos contínuos (white noise, pink noise, hiss, hum), usada para atmosfera, preenchimento ou para misturar e dar cor ao som.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "PAD",
+    "descricao": "Som atmosférico sustentado e suave.",
+    "descricao_completa": "Som atmosférico contínuo, geralmente suave, sustenido, usado para preencher espaços na mixagem, criar ambientação ou sensação de profundidade.",
+    "categoria": "Ambiência"
+  },
+  {
+    "termo": "REVERSE",
+    "descricao": "Áudio reproduzido ao contrário.",
+    "descricao_completa": "Áudio reproduzido ao contrário. Muito usado para efeitos de transição, suspense, ou para criar versões diferenciadas de sons comuns.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "RUMBLE",
+    "descricao": "Som grave e subarmônico contínuo.",
+    "descricao_completa": "Som grave contínuo ou subarmônico, usado para sensação de peso, tensão ou terremoto.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SCRATCH / SCRAPE",
+    "descricao": "Som de objeto arranhando ou raspando.",
+    "descricao_completa": "Som de objeto arranhando ou raspando outra superfície. Pode variar em textura conforme material e contato.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SPARK / GLINT / TWINKLE",
+    "descricao": "Sons agudos e cintilantes.",
+    "descricao_completa": "Sons agudos muito curtos, cintilantes, usados para acentuar brilhos visuais, reluzentes ou detalhes pequenos, como gotas de água, reflexos, magia etc.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SUB BASS",
+    "descricao": "Frequências abaixo de 60 Hz.",
+    "descricao_completa": "Frequências baixíssimas, geralmente abaixo de 60 Hz, usadas para reforçar graves em música ou efeitos de tremor.",
+    "categoria": "Técnico"
+  },
+  {
+    "termo": "SWEEP",
+    "descricao": "Variação de frequência filtrada.",
+    "descricao_completa": "Efeito sonoro de variação de frequência ou filtro (como filtro low-pass ou high-pass) que “varre” de uma frequência a outra, criando sensação de transição, tensão ou movimento.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "SWEEP DOWN / SWEEP UP",
+    "descricao": "Sweep descendente ou ascendente.",
+    "descricao_completa": "Sweep que vai decrescendo (Sweep Down) ou ascendendo (Sweep Up) em frequências/volume, para criar subida ou descida sonora.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "TAPE STOP / TAPE SLOWDOWN",
+    "descricao": "Efeito de parada de fita magnética.",
+    "descricao_completa": "Efeito que simula uma parada brusca ou desaceleração de fita magnética, gerando sensação de “parar no meio”.",
+    "categoria": "Efeitos"
+  },
+  {
+    "termo": "WHOOSH PAD",
+    "descricao": "Mistura de pad com movimento de ar.",
+    "descricao_completa": "Mistura entre pad e whoosh: textura atmosférica que incorpora movimento de deslocamento, arraste de ar ou transição.",
+    "categoria": "Ambiência"
   }
 ]
