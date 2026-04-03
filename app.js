@@ -1,44 +1,3 @@
-let lista = [];
-let fuse;
-
-const resultsDiv = document.getElementById("results");
-const searchInput = document.getElementById("search");
-const filterSelect = document.getElementById("filter");
-
-// carregar JSON
-fetch("data.json")
-  .then(res => res.json())
-  .then(data => {
-    lista = data;
-
-    // categorias únicas
-    const categorias = [...new Set(lista.map(item => item.categoria))];
-
-    categorias.forEach(cat => {
-      const option = document.createElement("option");
-      option.value = cat;
-      option.textContent = cat;
-      filterSelect.appendChild(option);
-    });
-
-    // configurar busca
-    fuse = new Fuse(lista, {
-      keys: ["termo", "descricao"],
-      threshold: 0.3
-    });
-
-    render(lista);
-  });
-
-// função para destacar busca
-function highlight(text, search) {
-  if (!search) return text;
-
-  const regex = new RegExp(`(${search})`, "gi");
-  return text.replace(regex, "<mark>$1</mark>");
-}
-
-// renderizar
 function render(items) {
   resultsDiv.innerHTML = "";
 
@@ -58,8 +17,16 @@ function render(items) {
           ${item.categoria}
         </span>
 
-        <div>
+        <div class="mb-2">
           ${highlight(item.descricao, termoBusca)}
+        </div>
+
+        <button class="btn btn-sm btn-outline-light mb-2" onclick="toggleDesc(this)">
+          Ver mais
+        </button>
+
+        <div class="descricao-completa d-none">
+          ${highlight(item.descricao_completa, termoBusca)}
         </div>
       </div>
     `;
@@ -68,22 +35,8 @@ function render(items) {
   });
 }
 
-// atualizar busca + filtro
-function atualizar() {
-  let valorBusca = searchInput.value;
-  let categoria = filterSelect.value;
-
-  let resultado = valorBusca
-    ? fuse.search(valorBusca).map(r => r.item)
-    : lista;
-
-  if (categoria) {
-    resultado = resultado.filter(item => item.categoria === categoria);
-  }
-
-  render(resultado);
+function toggleDesc(btn) {
+  const desc = btn.nextElementSibling;
+  desc.classList.toggle("d-none");
+  btn.textContent = desc.classList.contains("d-none") ? "Ver mais" : "Ver menos";
 }
-
-// eventos
-searchInput.addEventListener("input", atualizar);
-filterSelect.addEventListener("change", atualizar);
