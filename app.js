@@ -73,7 +73,7 @@ function render(items) {
 
   items.forEach(item => {
     const div = document.createElement("div");
-    div.className = "col-md-6 col-lg-4 mb-3";
+    div.className = "col-12 col-md-6 col-lg-4 mb-3";
 
     div.innerHTML = `
       <div class="card bg-dark text-light h-100 shadow-sm p-3">
